@@ -1,24 +1,24 @@
+import { IconBrandGithub, IconBrandTelegram } from '@tabler/icons-react'
 import '../../../styles/Hero.css'
-import { IconBrandGithub, IconBrandTelegram } from "@tabler/icons-react";
 
 const skillsIcons = [
-  {
-    img: "https://skillicons.dev/icons?i=html,css",
-    id: 1,
-  },
-  {
-    img: "https://skillicons.dev/icons?i=js,ts",
-    id: 2,
-  },
-  {
-    img: "https://skillicons.dev/icons?i=react,next",
-    id: 3,
-  },
-  {
-    img: "https://skillicons.dev/icons?i=tailwind,scss",
-    id: 4,
-  },
-];
+	{
+		img: 'https://skillicons.dev/icons?i=html,css',
+		id: 1,
+	},
+	{
+		img: 'https://skillicons.dev/icons?i=js,ts',
+		id: 2,
+	},
+	{
+		img: 'https://skillicons.dev/icons?i=react,next',
+		id: 3,
+	},
+	{
+		img: 'https://skillicons.dev/icons?i=tailwind,scss',
+		id: 4,
+	},
+]
 
 const Hero = () => {
 	return (
@@ -33,8 +33,8 @@ const Hero = () => {
 								alt='waving_hand'
 							/>
 							<p>
-								Hi, I'm Aydamir Zhilyasov. A passionate Front-end React Developer
-								based in Moscow. 📍
+								Hi, I'm Aydamir Zhilyasov. A passionate Front-end React
+								Developer based in Moscow. 📍
 							</p>
 							<span>
 								<a
@@ -62,28 +62,16 @@ const Hero = () => {
 						<div className='logos'>
 							<ul>
 								<li>
-									<img
-										src={skillsIcons[0].img}
-										alt='skill-icon'
-									/>
+									<img src={skillsIcons[0].img} alt='skill-icon' />
 								</li>
 								<li>
-									<img
-										src={skillsIcons[1].img}
-										alt='skill-icon'
-									/>
+									<img src={skillsIcons[1].img} alt='skill-icon' />
 								</li>
 								<li>
-									<img
-										src={skillsIcons[2].img}
-										alt='skill-icon'
-									/>
+									<img src={skillsIcons[2].img} alt='skill-icon' />
 								</li>
 								<li>
-									<img
-										src={skillsIcons[3].img}
-										alt='skill-icon'
-									/>
+									<img src={skillsIcons[3].img} alt='skill-icon' />
 								</li>
 							</ul>
 						</div>

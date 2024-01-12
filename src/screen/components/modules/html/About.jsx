@@ -7,7 +7,9 @@ const About = () => {
 				<div className='about-content'>
 					<div className='img-side'>
 						<p>
-							<span className="work-emoji" id="copy-emoji">👨🏻&zwj;💻</span>
+							<span className='work-emoji' id='copy-emoji'>
+								👨🏻&zwj;💻
+							</span>
 						</p>
 						{/* <img
 							src='https://www.stefantopalovic.com/static/media/working-emoji.c5325f52b5be329995a5.png'
@@ -32,10 +34,10 @@ const About = () => {
 							A dedicated Front-end Developer <br /> based in Moscow 📍
 						</h4>
 						<p>
-							As a Front-End Developer, I possess an impressive arsenal
-							of skills in HTML, CSS, SASS/SCSS, Tailwind, JavaScript, React,
-							Redux Toolkit, React Query, Bootstrap, Webpack/Vite, TypeScript
-							and basics Node.js + Express.js. I excel in designing and
+							As a Front-End Developer, I possess an impressive arsenal of
+							skills in HTML, CSS, SASS/SCSS, Tailwind, JavaScript, React, Redux
+							Toolkit, React Query, Bootstrap, Webpack/Vite, TypeScript and some
+							backend like Node.js + Express.js. I excel in designing and
 							maintaining responsive websites that offer a smooth user
 							experience. My expertise lies in crafting dynamic, engaging
 							interfaces through writing clean and optimized code and utilizing

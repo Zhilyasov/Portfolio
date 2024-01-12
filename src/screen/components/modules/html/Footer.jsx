@@ -1,5 +1,5 @@
+import { IconBrandGithub, IconBrandTelegram } from '@tabler/icons-react'
 import '../../../styles/Footer.css'
-import { IconBrandGithub, IconBrandTelegram } from "@tabler/icons-react";
 
 function Footer() {
 	return (
@@ -24,7 +24,7 @@ function Footer() {
 							rel='noreferrer'
 							href='https://github.com/Zhilyasov'
 						>
-							<IconBrandGithub />
+							<IconBrandGithub width={32} height={32} />
 						</a>
 					</div>
 				</div>

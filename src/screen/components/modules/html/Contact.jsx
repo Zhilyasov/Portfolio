@@ -35,7 +35,11 @@ function Contact() {
 							</span>
 							<div className='contact__info'>
 								<h3>Telegram</h3>
-								<a href='https://t.me/Zhilyasov' target='_blank' rel="noreferrer">
+								<a
+									href='https://t.me/Zhilyasov'
+									target='_blank'
+									rel='noreferrer'
+								>
 									@Zhilyasov
 								</a>
 							</div>

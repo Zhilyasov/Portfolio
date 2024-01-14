@@ -11,7 +11,7 @@ function Footer() {
 					</h3>
 					<div className='footerc__socials'>
 						<a
-							aria-label='linkedin'
+							aria-label='telegram'
 							target='_blank'
 							rel='noreferrer'
 							href='https://t.me/Zhilyasov'

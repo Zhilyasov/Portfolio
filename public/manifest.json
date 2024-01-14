@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "short_name": "React App",
   "name": "Create React App Sample",
   "icons": [
@@ -9,10 +8,7 @@
       "type": "image/x-icon"
     }
   ],
-=======
-  "short_name": "Zhilyasov Profile",
-  "name": "Front-End Developer Zhilyasov",
->>>>>>> a281aa5 (g)
+
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",

@@ -1,5 +1,3 @@
 # My Profile
 
-Deploy on hosting
-
-Thanks
+link: 

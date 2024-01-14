@@ -1,6 +1,6 @@
 {
   "name": "my-webpage",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@tabler/icons-react": "^2.44.0",

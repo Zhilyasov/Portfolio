@@ -2,7 +2,7 @@
   "name": "my-webpage",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zhilyasov.github.io/Portfolio",
+  "homepage": "https://zhilyasov.github.io/Site",
   "dependencies": {
     "@tabler/icons-react": "^2.44.0",
     "@testing-library/jest-dom": "^5.14.1",

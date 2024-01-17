@@ -11,12 +11,28 @@ const skillsIcons = [
 		id: 2,
 	},
 	{
-		img: 'https://skillicons.dev/icons?i=react,next',
+		img: 'https://skillicons.dev/icons?i=react,redux',
 		id: 3,
 	},
 	{
 		img: 'https://skillicons.dev/icons?i=tailwind,scss',
 		id: 4,
+	},
+	{
+		img: 'https://skillicons.dev/icons?i=nodejs,sqlite',
+		id: 5,
+	},
+	{
+		img: 'https://skillicons.dev/icons?i=vite,webpack',
+		id: 6,
+	},
+	{
+		img: 'https://skillicons.dev/icons?i=tailwind,scss',
+		id: 7,
+	},
+	{
+		img: 'https://skillicons.dev/icons?i=tailwind,scss',
+		id: 8,
 	},
 ]
 
@@ -29,7 +45,7 @@ const Hero = () => {
 						<div className='hero-text'>
 							<h1>Front-End React Developer</h1>
 							<img
-								src='	https://www.stefantopalovic.com/static/media/waving.1bae5fcfb51082b5c2b4.png'
+								src='/public/hand.png'
 								alt='waving_hand'
 							/>
 							<p>
@@ -60,7 +76,7 @@ const Hero = () => {
 					<div className='skills'>
 						<p>Tech Stack</p>
 						<div className='logos'>
-							<ul>
+							<ul className='icons'>
 								<li>
 									<img src={skillsIcons[0].img} alt='skill-icon' />
 								</li>
@@ -72,6 +88,18 @@ const Hero = () => {
 								</li>
 								<li>
 									<img src={skillsIcons[3].img} alt='skill-icon' />
+								</li>
+								<li>
+									<img src={skillsIcons[4].img} alt='skill-icon' />
+								</li>
+								<li>
+									<img src={skillsIcons[5].img} alt='skill-icon' />
+								</li>
+								<li>
+									<img src={skillsIcons[6].img} alt='skill-icon' />
+								</li>
+								<li>
+									<img src={skillsIcons[7].img} alt='skill-icon' />
 								</li>
 							</ul>
 						</div>

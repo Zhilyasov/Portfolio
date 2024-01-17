@@ -241,3 +241,10 @@
 		justify-content: center;
 	}
 }
+
+.icons {
+	display: flex;
+	flex-flow: row wrap;
+	direction: 4tr;
+	justify-content: center;
+}

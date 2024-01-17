@@ -11,13 +11,8 @@ const About = () => {
 								👨🏻&zwj;💻
 							</span>
 						</p>
-						{/* <img
-							src='https://www.stefantopalovic.com/static/media/working-emoji.c5325f52b5be329995a5.png'
-							alt='emoji'
-							className='work-emoji'
-						/> */}
 						<img
-							src='https://www.stefantopalovic.com/static/media/about-img.62b47e7f183d4b4e9feb.webp'
+							src='/public/about-img.webp'
 							alt='mee'
 							className='img-side__main-img'
 						/>

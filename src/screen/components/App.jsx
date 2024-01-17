@@ -20,7 +20,11 @@ function App() {
   }
 
 	return (
-		<IntlProvider messages={{}} locale='en' defaultLocale='en'>
+		<IntlProvider
+      messages={messages[locale]}
+      locale={locale}
+      defaultLocale={LOCALES.ENGLISH}
+    >
 			<div>
 				<Nav currentLocale={currentLocale} handleChange={handleChange}/>
 				<Hero />

@@ -10,7 +10,9 @@ function Footer() {
 					{/* <h3>
 						Copyright © {new Date().getFullYear()}. All rights are reserved
 					</h3> */}
-					<FormattedMessage id='text' />
+					<h3>
+						<FormattedMessage id='text' />
+					</h3>
 					<div className='footerc__socials'>
 						<a
 							aria-label='telegram'

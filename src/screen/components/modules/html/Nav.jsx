@@ -35,9 +35,14 @@ const Nav = ({ currentLocale, handleChange }) => {
 
 	const languages = [
 		{ name: 'English', code: LOCALES.ENGLISH },
-		{ name: 'Русский', code: LOCALES.RUSSIAN },
-		{ name: 'Français', code: LOCALES.FRENCH },
-		{ name: 'Deutsche', code: LOCALES.GERMAN },
+		{ name: 'Русский', code: LOCALES.RUSSIAN }
+	]
+
+	const menu = [
+		{
+			key: 'text',
+			title: 'title 1'
+		},
 	]
 
 	return (

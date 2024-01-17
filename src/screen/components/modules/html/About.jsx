@@ -12,7 +12,7 @@ const About = () => {
 							</span>
 						</p>
 						<img
-							src='/public/about-img.webp'
+							src='%PUBLIC_URL%/about-img.webp'
 							alt='mee'
 							className='img-side__main-img'
 						/>

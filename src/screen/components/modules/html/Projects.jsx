@@ -11,7 +11,7 @@ import '../../../styles/Projects.css'
 
 const Projects = () => {
 	return (
-		<section className='projects' id='projects'>
+		<section className='project' id='projects'>
 			<div className='container'>
 				{/*<div className='project-content'>
 					<p>portfolio</p>

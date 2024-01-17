@@ -23,6 +23,16 @@ export const messages = {
     portfolio_subtitle: 'Each project is a unique piece of development 🧩',
     portfolio_no_projects: 'New projects coming soon.. 🤠',
 
+    // Projects:
+
+    // Car rental
+    car_rental_date: '(February 2023)',
+
+    // COINDOM
+
+    // GYMATE
+
+    // ECOMMERCE
 
 
 
@@ -52,6 +62,19 @@ export const messages = {
     portfolio_title: 'Портфолио',
     portfolio_subtitle: 'Каждый проект содержит уникальный опыт 🧩',
     portfolio_no_projects: 'Новые проекты обновляются.. 🤠',
+
+    // Projects:
+    
+    // Car rental
+    car_rental_date: '(Февраль 2023)',
+
+    // COINDOM
+
+    // GYMATE
+
+    // ECOMMERCE
+
+
 
 
 

@@ -26,14 +26,6 @@ const skillsIcons = [
 		img: 'https://skillicons.dev/icons?i=vite,webpack',
 		id: 6,
 	},
-	{
-		img: 'https://skillicons.dev/icons?i=tailwind,scss',
-		id: 7,
-	},
-	{
-		img: 'https://skillicons.dev/icons?i=tailwind,scss',
-		id: 8,
-	},
 ]
 
 const Hero = () => {
@@ -94,12 +86,6 @@ const Hero = () => {
 								</li>
 								<li>
 									<img src={skillsIcons[5].img} alt='skill-icon' />
-								</li>
-								<li>
-									<img src={skillsIcons[6].img} alt='skill-icon' />
-								</li>
-								<li>
-									<img src={skillsIcons[7].img} alt='skill-icon' />
 								</li>
 							</ul>
 						</div>

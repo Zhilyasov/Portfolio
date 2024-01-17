@@ -18,7 +18,7 @@ const About = () => {
 						/>
 						<span>
 							<img
-								src='https://www.stefantopalovic.com/static/media/text2.3d5aa6ba2d0632bb4e0572631c3f9dc2.svg'
+								src='/text.svg'
 								alt='text'
 							/>
 						</span>

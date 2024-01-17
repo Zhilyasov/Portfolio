@@ -1,24 +1,23 @@
 import '../../../styles/Projects.css'
-import ProBox from './ProBox.jsx'
 
-const CarRental =
-	'https://www.stefantopalovic.com/static/media/car-rental-full.c58b37da333d73238fdd.webp'
-const CoinDom =
-	'https://www.stefantopalovic.com/static/media/coindom-full.c5fef9ca2f47e52897f8.png'
-const Gymate =
-	'https://www.stefantopalovic.com/static/media/gymate-home.52d00d03c15713c601c4.webp'
-const Raouf =
-	'https://www.stefantopalovic.com/static/media/ecom.f10b3cdd799be85c19da.webp'
+// const CarRental =
+// 	'https://www.stefantopalovic.com/static/media/car-rental-full.c58b37da333d73238fdd.webp'
+// const CoinDom =
+// 	'https://www.stefantopalovic.com/static/media/coindom-full.c5fef9ca2f47e52897f8.png'
+// const Gymate =
+// 	'https://www.stefantopalovic.com/static/media/gymate-home.52d00d03c15713c601c4.webp'
+// const Raouf =
+// 	'https://www.stefantopalovic.com/static/media/ecom.f10b3cdd799be85c19da.webp'
 
 const Projects = () => {
 	return (
 		<section className='projects' id='projects'>
 			<div className='container'>
-				<div className='project-content'>
+				{/*<div className='project-content'>
 					<p>portfolio</p>
 					<h3>Each project is a unique piece of development 🧩</h3>
 					<div className='projects-grid'>
-						{/* <ProBox
+						<ProBox
 							title='Car Rental'
 							img={CarRental}
 							date='(February 2023)'
@@ -70,9 +69,10 @@ const Projects = () => {
 							scrollY='-71%'
 							icon='🛒'
 							cName='reversed-proj'
-						/> */}
+						/> 
 					</div>
-				</div>
+				</div>*/}
+				<h2 className='new-projects'>New projects coming soon.. 🤠</h2>
 			</div>
 		</section>
 	)

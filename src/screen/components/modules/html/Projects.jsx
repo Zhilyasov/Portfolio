@@ -18,7 +18,7 @@ const Projects = () => {
 					<p>portfolio</p>
 					<h3>Each project is a unique piece of development 🧩</h3>
 					<div className='projects-grid'>
-						<ProBox
+						{/* <ProBox
 							title='Car Rental'
 							img={CarRental}
 							date='(February 2023)'
@@ -70,7 +70,7 @@ const Projects = () => {
 							scrollY='-71%'
 							icon='🛒'
 							cName='reversed-proj'
-						/>
+						/> */}
 					</div>
 				</div>
 			</div>

@@ -2,13 +2,13 @@ import '../../../styles/Projects.css'
 import ProBox from './ProBox'
 
 const CarRental =
-	'/CarRental.png'
+	'/CarRental.jpeg'
 const CoinDom =
-	'/coindom-crypto.png'
+	'/coindom-crypto.jpeg'
 const Gymate =
-	'/gymate.png'
+	'/gymate.jpeg'
 const Raouf =
-	'/e-commerce.png'
+	'/e-commerce.jpeg'
 
 const Projects = () => {
 	return (

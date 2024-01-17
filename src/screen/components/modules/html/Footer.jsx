@@ -7,9 +7,6 @@ function Footer() {
 		<footer>
 			<div className='container'>
 				<div className='footerc'>
-					{/* <h3>
-						Copyright © {new Date().getFullYear()}. All rights are reserved
-					</h3> */}
 					<h3>
 						<FormattedMessage id='footer1' />
 						{new Date().getFullYear()}

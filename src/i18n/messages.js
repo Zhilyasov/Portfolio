@@ -33,10 +33,10 @@ export const messages = {
 
   [LOCALES.RUSSIAN]: {
     // Navigation
-    nav_home: 'Главная',
-    nav_about: 'Обо мне',
-    nav_projects: 'Проекты',
-    nav_contact: 'Контакты',
+    nav_Home: 'Главная',
+    nav_About: 'Обо мне',
+    nav_Projects: 'Проекты',
+    nav_Contact: 'Контакты',
 
     // Hero
     hero_proffesion: 'Front-End React Разработчик',

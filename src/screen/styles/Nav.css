@@ -27,7 +27,7 @@ nav ul {
 }
 
 .switcher {
-	display: none;
+	display: flex;
 }
 
 @media (max-width: 900px) {
@@ -64,6 +64,7 @@ nav ul a:hover {
 
 .switcherM {
 	display: none;
+	margin-top: 100px;
 }
 
 .mobile-menu:hover {
@@ -100,6 +101,7 @@ nav ul a:hover {
 	align-items: center;
 	justify-content: center;
 	transition: all 0.3s ease-in-out;
+	flex-direction: column;
 }
 .mobile-nav span {
 	font-size: 3.3rem;

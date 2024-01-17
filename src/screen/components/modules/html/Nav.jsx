@@ -2,6 +2,7 @@ import { IconMenu2, IconX } from '@tabler/icons-react'
 import { useState } from 'react'
 import '../../../styles/Nav.css'
 import { LOCALES } from '../../../../i18n/locales'
+import { FormattedMessage } from 'react-intl'
 
 const Nav = ({ currentLocale, handleChange }) => {
 	const [hamburger, setHamburger] = useState(false)
@@ -47,7 +48,9 @@ const Nav = ({ currentLocale, handleChange }) => {
 				<ul>
 					{navlinks.map(item => (
 						<li key={item.name}>
-							<a href={item.link}>{item.name}</a>
+							<a href={item.link}>
+								<FormattedMessage id={`nav_${item.name}`} />
+							</a>
 						</li>
 					))}
 					<li onClick={() => hamburgerMenu()}>
@@ -75,7 +78,9 @@ const Nav = ({ currentLocale, handleChange }) => {
 				<ul>
 					{navlinks.map(item => (
 						<li key={item.name} onClick={() => hamburgerMenu()}>
-							<a href={item.link}>{item.name}</a>
+							<a href={item.link}>
+							<FormattedMessage id={`nav_${item.name}`} />
+							</a>
 						</li>
 					))}
 				</ul>

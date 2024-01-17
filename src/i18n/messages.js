@@ -3,10 +3,10 @@ import { LOCALES } from './locales'
 export const messages = {
   [LOCALES.ENGLISH]: {
     // Navigation
-    nav_home: 'Home',
-    nav_about: 'About',
-    nav_projects: 'Projects',
-    nav_contact: 'Contact',
+    nav_Home: 'Home',
+    nav_About: 'About',
+    nav_Projects: 'Projects',
+    nav_Contact: 'Contact',
 
     // Hero
     hero_proffesion: 'Front-End React Developer',

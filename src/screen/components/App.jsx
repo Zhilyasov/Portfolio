@@ -12,17 +12,24 @@ import { useState } from 'react'
 
 
 function App() {
-	const locale = LOCALES.ENGLISH
-	const [currentLocale, setCurrentLocale] = useState(locale)
-	
+	const [currentLocale, setCurrentLocale] = useState(getInitialLocale())
+
 	const handleChange = ({ target: { value } }) => {
-    setCurrentLocale(value)
-  }
+  setCurrentLocale(value)
+  // сохраняем локацию в хранилище
+  localStorage.setItem('locale', value)
+}
+
+	function getInitialLocale() {
+		// получаем сохраненные данные
+		const savedLocale = localStorage.getItem('locale')
+		return savedLocale || LOCALES.ENGLISH
+	}
 
 	return (
 		<IntlProvider
-      messages={messages[locale]}
-      locale={locale}
+      messages={messages[getInitialLocale()]}
+      locale={getInitialLocale()}
       defaultLocale={LOCALES.ENGLISH}
     >
 			<div>

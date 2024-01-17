@@ -32,6 +32,11 @@ nav ul {
 	margin-left: 20px;
 }
 
+.switcher span {
+	margin-right: 10px;
+	opacity: 0.5;
+}
+
 .switcher select {
   width: 99px;
   height: 30px;
@@ -73,11 +78,6 @@ nav ul a:hover {
 	display: none;
 	margin-top: 100px;
 	flex-direction: column;
-}
-
-.switcherM span {
-	font-size: 2rem;
-	margin-bottom: 10px;
 }
 
 .switcherM select {

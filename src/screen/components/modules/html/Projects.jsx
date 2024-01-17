@@ -4,11 +4,11 @@ import ProBox from './ProBox'
 const CarRental =
 	'/CarRental.png'
 const CoinDom =
-	'https://www.stefantopalovic.com/static/media/coindom-full.c5fef9ca2f47e52897f8.png'
+	'/coindom-crypto.png'
 const Gymate =
-	'https://www.stefantopalovic.com/static/media/gymate-home.52d00d03c15713c601c4.webp'
+	'/gymate.png'
 const Raouf =
-	'https://www.stefantopalovic.com/static/media/ecom.f10b3cdd799be85c19da.webp'
+	'/e-commerce.png'
 
 const Projects = () => {
 	return (
@@ -31,7 +31,7 @@ const Projects = () => {
 							icon='🚗'
 						/>
 
-						{/*<ProBox
+						<ProBox
 							title='Coindom'
 							date='(February 2023)'
 							img={CoinDom}
@@ -70,10 +70,10 @@ const Projects = () => {
 							scrollY='-71%'
 							icon='🛒'
 							cName='reversed-proj'
-						/> */}
+						/>
 					</div>
 				</div>
-				<h2 className='new-projects'>New projects coming soon.. 🤠</h2>
+				{/* <h2 className='new-projects'>New projects coming soon.. 🤠</h2> */}
 			</div>
 		</section>
 	)

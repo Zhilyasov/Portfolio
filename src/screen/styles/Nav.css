@@ -40,6 +40,7 @@ nav ul {
 .switcher select {
   width: 99px;
   height: 30px;
+	border: none;
 }
 
 @media (max-width: 900px) {

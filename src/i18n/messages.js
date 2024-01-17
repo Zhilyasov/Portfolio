@@ -2,9 +2,11 @@ import { LOCALES } from './locales'
 
 export const messages = {
   [LOCALES.ENGLISH]: {
-    text: 'Text on English'
+    footer1: 'Copyright © ',
+    footer2: '. All rights are reserved'
   },
   [LOCALES.RUSSIAN]: {
-    text: 'Текст на русском'
+    footer1: 'Авторские права до © ',
+    footer2: '. Все права защищены'
   },
 }

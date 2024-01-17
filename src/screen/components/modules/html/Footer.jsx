@@ -11,7 +11,9 @@ function Footer() {
 						Copyright © {new Date().getFullYear()}. All rights are reserved
 					</h3> */}
 					<h3>
-						<FormattedMessage id='text' />
+						<FormattedMessage id='footer1' />
+						{new Date().getFullYear()}
+						<FormattedMessage id='footer2' />
 					</h3>
 					<div className='footerc__socials'>
 						<a

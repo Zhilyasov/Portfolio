@@ -1,5 +1,6 @@
 import '../../../styles/Projects.css'
 import ProBox from './ProBox'
+import { FormattedMessage } from 'react-intl'
 
 const CarRental =
 	'/CarRental.jpeg'
@@ -15,8 +16,12 @@ const Projects = () => {
 		<section className='project' id='projects'>
 			<div className='container'>
 				<div className='project-content'>
-					<p>portfolio</p>
-					<h3>Each project is a unique piece of development 🧩</h3>
+					<p>
+						<FormattedMessage id='portfolio_title' />
+					</p>
+					<h3>
+						<FormattedMessage id='portfolio_subtitle' />
+					</h3>
 					<div className='projects-grid'>
 						<ProBox
 							title='Car Rental'
@@ -73,7 +78,9 @@ const Projects = () => {
 						/>
 					</div>
 				</div>
-				{/* <h2 className='new-projects'>New projects coming soon.. 🤠</h2> */}
+				{/* <h2 className='new-projects'>
+					<FormattedMessage id='portfolio_no_projects' />
+				</h2> */}
 			</div>
 		</section>
 	)

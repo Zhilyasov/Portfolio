@@ -1,4 +1,5 @@
 import '../../../styles/About.css'
+import { FormattedMessage } from 'react-intl'
 
 const About = () => {
 	return (
@@ -24,21 +25,14 @@ const About = () => {
 						</span>
 					</div>
 					<div className='text-side'>
-						<h3>About me</h3>
+						<h3>
+							<FormattedMessage id='about_title' />
+						</h3>
 						<h4>
-							A dedicated Front-end Developer <br /> based in Moscow 📍
+							<FormattedMessage id='about_subtitle' />
 						</h4>
 						<p>
-							As a Front-End Developer, I possess an impressive arsenal of
-							skills in HTML, CSS, SASS/SCSS, Tailwind, JavaScript, React, Redux
-							Toolkit, React Query, Bootstrap, Webpack/Vite, TypeScript and some
-							backend like Node.js + Express.js. I excel in designing and
-							maintaining responsive websites that offer a smooth user
-							experience. My expertise lies in crafting dynamic, engaging
-							interfaces through writing clean and optimized code and utilizing
-							cutting-edge development tools and techniques. I am also a team
-							player who thrives in collaborating with cross-functional teams to
-							produce outstanding web applications.
+							<FormattedMessage id='about_desc' />
 						</p>
 					</div>
 				</div>

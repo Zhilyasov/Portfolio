@@ -115,17 +115,17 @@
 	width: 6rem;
 	height: 6rem;
 	top: 8.7rem;
-	right: 13rem;
+	right: 8rem;
 }
 @media (max-width: 900px) {
 	.hero-text img {
-		right: 3rem;
+		right: -2rem;
 	}
 }
 @media (max-width: 500px) {
 	.hero-text img {
 		top: 6.4rem;
-		right: 2rem;
+		right: -1rem;
 		width: 4.5rem;
 		height: 4.5rem;
 	}

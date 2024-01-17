@@ -1,5 +1,6 @@
 import { IconBrandGithub, IconExternalLink } from '@tabler/icons-react'
 import { useState } from 'react'
+import { FormattedMessage } from 'react-intl'
 
 function ProBox({
 	title,
@@ -43,10 +44,11 @@ function ProBox({
 					</div>
 					<div className='links'>
 						<a target='_blank' href={code} rel='noreferrer'>
-							Code <IconBrandGithub />
+							<FormattedMessage id='code' />
+							<IconBrandGithub />
 						</a>
 						<a target='_blank' href={demo} rel='noreferrer'>
-							Live Demo
+							<FormattedMessage id='live_demo' />
 							<IconExternalLink />
 						</a>
 					</div>

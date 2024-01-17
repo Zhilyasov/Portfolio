@@ -82,6 +82,19 @@ const Nav = () => {
 						</li>
 					))}
 				</ul>
+
+				<div className='switcherM'>
+					{/* Выпадающий список для выбора языка */}
+					Languages
+					<select>
+						{languages.map(({ name, code }) => (
+							<option key={code} value={code}>
+								{name}
+							</option>
+						))}
+					</select>
+				</div>
+
 			</div>
 		</>
 	)

@@ -26,10 +26,17 @@ nav ul {
   list-style: none;
 }
 
+.switcher {
+	display: none;
+}
+
 @media (max-width: 900px) {
   nav ul a {
     display: none;
   }
+	.switcher {
+		display: none;
+	}
 }
 
 nav ul a {
@@ -54,12 +61,20 @@ nav ul a:hover {
 	cursor: pointer;
 	display: none;
 }
+
+.switcherM {
+	display: none;
+}
+
 .mobile-menu:hover {
 	color: #147efb;
 	transition: all 0.3s;
 }
 @media (max-width: 900px) {
 	.mobile-menu {
+		display: flex;
+	}
+	.switcherM {
 		display: flex;
 	}
 }

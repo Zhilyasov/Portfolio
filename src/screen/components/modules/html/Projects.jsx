@@ -27,7 +27,7 @@ const Projects = () => {
 							title='Car Rental'
 							img={CarRental}
 							date={<FormattedMessage id='car_rental_date' />}
-							description={<FormattedMessage id='car_rental_date' />}
+							description={<FormattedMessage id='car_rental_desc' />}
 							techno1='React'
 							techno2='SCSS'
 							code='https://github.com/Zhilyasov/car-rental'

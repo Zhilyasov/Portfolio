@@ -2,10 +2,56 @@ import { LOCALES } from './locales'
 
 export const messages = {
   [LOCALES.ENGLISH]: {
+    // Navigation
+    nav_home: 'Home',
+    nav_about: 'About',
+    nav_projects: 'Projects',
+    nav_contact: 'Contact',
+
+    // Hero
+    hero_proffesion: 'Front-End React Developer',
+    hero_desc: "Hi, I'm Aydamir Zhilyasov. A passionate Front-end Developer based in Moscow. 📍",
+    hero_stack: 'Tech Stack',
+
+    // About
+    about_title: 'about me',
+    about_subtitle: 'A dedicated Front-end Developer',
+    about_desc: 'As a Front-End Developer, I possess an impressive arsenal of skills in HTML, CSS, SASS/SCSS, Tailwind, JavaScript, React, Redux Toolkit, React Query, Bootstrap, Webpack/Vite, TypeScript and some backend like Node.js + Express.js. I excel in designing and maintaining responsive websites that offer a smooth user experience. My expertise lies in crafting dynamic, engaging interfaces through writing clean and optimized code and utilizing cutting-edge development tools and techniques. I am also a team player who thrives in collaborating with cross-functional teams to produce outstanding web applications.',
+
+    // Portfolio
+    portfolio_title: 'portfolio',
+    portfolio_subtitle: 'Each project is a unique piece of development 🧩',
+
+
+
+
+
     footer1: 'Copyright © ',
     footer2: '. All rights are reserved'
   },
+
+
   [LOCALES.RUSSIAN]: {
+    // Navigation
+    nav_home: 'Главная',
+    nav_about: 'Обо мне',
+    nav_projects: 'Проекты',
+    nav_contact: 'Контакты',
+
+    // Hero
+    hero_proffesion: 'Front-End React Разработчик',
+    hero_desc: "Привет, я Жилясов Айдамир. Front-end программист, базирующийся в Москве📍",
+    hero_stack: 'Технологии разработки',
+
+    // About
+    about_title: 'Обо мне',
+    about_subtitle: 'Заинтересованный Front-end Разработчик',
+    about_desc: 'Как Front-End разработчик, я обладаю большим арсеналом навыков в HTML, CSS, SASS/SCSS, Tailwind, JavaScript, React, Redux Toolkit, React Query, Bootstrap, Webpack/Vite, TypeScript и некоторыми знаниями и навыками Back-End разработки, такими как Node.js + Express.js. Я преуспеваю в разработке и поддержке адаптивных веб-сайтов, которые обеспечивают удобство работы с пользователем. Мой опыт базируется в создании динамичных, привлекательных интерфейсов посредством написания чистого и оптимизированного кода и использования передовых инструментов и методов разработки. Я также командный игрок, который преуспевает в сотрудничестве с межфункциональными командами для создания высоконагруженных веб-приложений.',
+
+
+
+
+    // Portfolio
     footer1: 'Авторские права до © ',
     footer2: '. Все права защищены'
   },

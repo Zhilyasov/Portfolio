@@ -56,9 +56,6 @@ const Nav = ({ currentLocale, handleChange }) => {
 				</ul>
 				<div className='switcher'>
 					{/* Выпадающий список для выбора языка */}
-					<span>
-						Language
-					</span>
 					<select onChange={handleChange} value={currentLocale}>
 						{languages.map(({ name, code }) => (
 							<option key={code} value={code}>

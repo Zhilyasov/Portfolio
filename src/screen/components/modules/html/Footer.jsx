@@ -1,14 +1,16 @@
 import { IconBrandGithub, IconBrandTelegram } from '@tabler/icons-react'
 import '../../../styles/Footer.css'
+import { FormattedMessage } from 'react-intl'
 
 function Footer() {
 	return (
 		<footer>
 			<div className='container'>
 				<div className='footerc'>
-					<h3>
+					{/* <h3>
 						Copyright © {new Date().getFullYear()}. All rights are reserved
-					</h3>
+					</h3> */}
+					<FormattedMessage id='text' />
 					<div className='footerc__socials'>
 						<a
 							aria-label='telegram'

@@ -3,7 +3,7 @@ import { useState } from 'react'
 import '../../../styles/Nav.css'
 import { LOCALES } from '../../../../i18n/locales'
 
-const Nav = () => {
+const Nav = ({ currentLocale, handleChange }) => {
 	const [hamburger, setHamburger] = useState(false)
 
 	const hamburgerMenu = () => {
@@ -58,8 +58,10 @@ const Nav = () => {
 				</ul>
 				<div className='switcher'>
 					{/* Выпадающий список для выбора языка */}
-					Languages
-					<select>
+					<span>
+						Languages
+					</span>
+					<select onChange={handleChange} value={currentLocale}>
 						{languages.map(({ name, code }) => (
 							<option key={code} value={code}>
 								{name}
@@ -85,8 +87,10 @@ const Nav = () => {
 
 				<div className='switcherM'>
 					{/* Выпадающий список для выбора языка */}
-					Languages
-					<select>
+					<span>
+						Languages
+					</span>
+					<select onChange={handleChange} value={currentLocale}>
 						{languages.map(({ name, code }) => (
 							<option key={code} value={code}>
 								{name}

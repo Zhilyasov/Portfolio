@@ -1,6 +1,7 @@
 import { IconMenu2, IconX } from '@tabler/icons-react'
 import { useState } from 'react'
 import '../../../styles/Nav.css'
+import { LOCALES } from '../../../../i18n/locales'
 
 const Nav = () => {
 	const [hamburger, setHamburger] = useState(false)
@@ -32,6 +33,13 @@ const Nav = () => {
 		},
 	]
 
+	const languages = [
+		{ name: 'English', code: LOCALES.ENGLISH },
+		{ name: 'Русский', code: LOCALES.RUSSIAN },
+		{ name: 'Français', code: LOCALES.FRENCH },
+		{ name: 'Deutsche', code: LOCALES.GERMAN },
+	]
+
 	return (
 		<>
 			<nav>
@@ -48,6 +56,17 @@ const Nav = () => {
 						<IconMenu2 className='mobile-menu' width={30} height={30} />
 					</li>
 				</ul>
+				<div className='switcher'>
+					{/* Выпадающий список для выбора языка */}
+					Languages
+					<select>
+						{languages.map(({ name, code }) => (
+							<option key={code} value={code}>
+								{name}
+							</option>
+						))}
+					</select>
+				</div>
 			</nav>
 
 			{/* mobile nav */}

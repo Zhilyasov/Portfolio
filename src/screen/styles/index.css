@@ -78,3 +78,8 @@ body {
 ::-webkit-scrollbar-thumb:active {
   background-color: #8e8e8e
 }
+
+.switcher select {
+  width: 99px;
+  height: 30px;
+}

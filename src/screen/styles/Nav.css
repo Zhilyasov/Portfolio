@@ -35,7 +35,7 @@ nav ul {
   width: 85px;
   height: 30px;
 	border: 2px solid #32333596;
-	border-radius: 20%;
+	border-radius: 10px;
 }
 
 @media (max-width: 900px) {

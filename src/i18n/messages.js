@@ -84,7 +84,7 @@ export const messages = {
 		// ECOMMERCE
 
 		// Portfolio
-		footer1: 'Авторские права до © ',
+		footer1: 'Авторские права © ',
 		footer2: '. Все права защищены',
 	},
 }

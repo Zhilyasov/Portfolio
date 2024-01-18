@@ -34,7 +34,8 @@ nav ul {
 .switcher select {
   width: 85px;
   height: 30px;
-	border: 2px solid #2d2e3270;
+	border: 2px solid #32333596;
+	border-radius: 20%;
 }
 
 @media (max-width: 900px) {

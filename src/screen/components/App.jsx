@@ -26,8 +26,9 @@ function App() {
 		return savedLocale || LOCALES.ENGLISH
 	}
 
-	let lang = navigator.language || navigator.userLanguage
-	console.log(lang)
+	// let lang = navigator.language || navigator.userLanguage
+	console.log(navigator.language)
+	console.log(navigator.userLanguage)
 	return (
 		<IntlProvider
       messages={messages[getInitialLocale()]}

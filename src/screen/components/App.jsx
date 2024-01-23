@@ -13,14 +13,6 @@ import Projects from './modules/html/Projects'
 function App() {
 	const [currentLocale, setCurrentLocale] = useState(getInitialLocale())
 
-	let lang = LOCALES.ENGLISH
-	const def_lang = navigator.language || navigator.userLanguage
-	if (def_lang === 'ru') {
-		lang = LOCALES.RUSSIAN
-	} else {
-		lang = LOCALES.ENGLISH
-	}
-
 	const handleChange = ({ target: { value } }) => {
 		setCurrentLocale(value)
 		// сохраняем локацию в хранилище
@@ -30,6 +22,13 @@ function App() {
 	function getInitialLocale() {
 		// получаем сохраненные данные
 		const savedLocale = localStorage.getItem('locale')
+		let lang = LOCALES.ENGLISH
+		const def_lang = navigator.language || navigator.userLanguage
+		if (def_lang === 'ru') {
+			lang = LOCALES.RUSSIAN
+		} else {
+			lang = LOCALES.ENGLISH
+		}
 		return savedLocale || lang
 	}
 
@@ -37,7 +36,7 @@ function App() {
 		<IntlProvider
 			messages={messages[getInitialLocale()]}
 			locale={getInitialLocale()}
-			defaultLocale={lang}
+			defaultLocale={LOCALES.ENGLISH}
 		>
 			<div>
 				<Nav currentLocale={currentLocale} handleChange={handleChange} />

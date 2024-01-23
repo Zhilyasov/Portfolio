@@ -13,8 +13,8 @@ import Projects from './modules/html/Projects'
 function App() {
 	const [currentLocale, setCurrentLocale] = useState(getInitialLocale())
 
-	const def_lang = navigator.language || navigator.userLanguage
 	let lang = LOCALES.ENGLISH
+	const def_lang = navigator.language || navigator.userLanguage
 	if (def_lang === 'ru') {
 		lang = LOCALES.RUSSIAN
 	} else {

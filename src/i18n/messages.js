@@ -98,7 +98,7 @@ export const messages = {
 		// Car rental
 		car_rental_date: '(Февраль 2023)',
 		car_rental_desc:
-			'A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.',
+			'Сайт по аренде автомобилей — это онлайн-платформа, которая позволяет пользователям арендовать автомобили для личного или делового использования. На сайте предусмотрен интерфейс для поиска, сравнения и бронирования автомобилей.',
 
 		// COINDOM
 		coindom_date: '(Февраль 2023)',

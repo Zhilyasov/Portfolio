@@ -9,10 +9,10 @@ function Contact() {
 				<div className='contact__content'>
 					<div className='contact__title'>
 						<p>
-							<FormattedMessage id='contact_title' />
+							<FormattedMessage id='contact_subtitle' />
 						</p>
 						<h3>
-							<FormattedMessage id='contact_subtitle' />
+							<FormattedMessage id='contact_title' />
 						</h3>
 					</div>
 					<div className='contact__icons'>

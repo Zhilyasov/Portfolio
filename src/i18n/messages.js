@@ -35,11 +35,34 @@ export const messages = {
 			'A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.',
 
 		// COINDOM
+		coindom_date: '(February 2023)',
+		coindom_desc:
+			'Coindom is a crypto app that allows users to search for information about various cryptocurrencies in real-time.',
 
 		// GYMATE
+		gymate_date: '(JANUARY 2023)',
+		gymate_desc:
+			'A gym website is a comprehensive resource for fitness information, class schedules, membership options, and tools to help users achieve their fitness goals.',
 
 		// ECOMMERCE
+		ecommerce_date: '(DECEMBER 2022)',
+		ecommerce_desc:
+			'With a focus on simplicity and clean design, this store prioritize user experience, making it easy for customers to find and purchase the products they need.',
 
+		// Contact
+		contact_title: "Don't be shy! Hit me up! 👇",
+		contact_subtitle: 'Contact',
+
+		location_title: 'Location',
+		location_subtitle: 'Russia, Moscow',
+
+		mail_title: 'Mail',
+		mail_subtitle: 'zhilyasovit@gmail.com',
+
+		telegram_title: 'Telegram',
+		telegram_subtitle: '@Zhilyasov',
+
+		// Footer
 		footer1: 'Copyright © ',
 		footer2: '. All rights are reserved',
 	},
@@ -75,15 +98,37 @@ export const messages = {
 		// Car rental
 		car_rental_date: '(Февраль 2023)',
 		car_rental_desc:
-			'Сайт по аренде автомобилей — это онлайн-платформа, которая позволяет пользователям арендовать автомобили для личного или делового использования. На сайте предусмотрен интерфейс для поиска, сравнения и бронирования автомобилей.',
+			'A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.',
 
 		// COINDOM
+		coindom_date: '(Февраль 2023)',
+		coindom_desc:
+			'Coindom — это криптоприложение, которое позволяет пользователям искать информацию о различных криптовалютах в режиме реального времени',
 
 		// GYMATE
+		gymate_date: '(Январь 2023)',
+		gymate_desc:
+			'Веб-сайт спортзала — это комплексный ресурс с информацией о фитнесе, расписаниями занятий, вариантами членства и инструментами, которые помогут пользователям достичь своих целей в фитнесе.',
 
 		// ECOMMERCE
+		ecommerce_date: '(Декабрь 2022)',
+		ecommerce_desc:
+			'Делая акцент на простоте и чистом дизайне, этот магазин уделяет приоритетное внимание пользовательскому опыту, что позволяет покупателям легко находить и покупать нужные им продукты.',
 
-		// Portfolio
+		// Contact
+		contact_title: 'Всегда на связи! 👇',
+		contact_subtitle: 'Контакты',
+
+		location_title: 'Локация',
+		location_subtitle: 'Russia, Moscow',
+
+		mail_title: 'Почта',
+		mail_subtitle: 'zhilyasovit@gmail.com',
+
+		telegram_title: 'Telegram',
+		telegram_subtitle: '@Zhilyasov',
+
+		// Footer
 		footer1: 'Авторские права © ',
 		footer2: '. Все права защищены',
 	},

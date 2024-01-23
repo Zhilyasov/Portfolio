@@ -38,9 +38,9 @@ const Projects = () => {
 
 						<ProBox
 							title='Coindom'
-							date='(February 2023)'
 							img={CoinDom}
-							description='Coindom is a crypto app that allows users to search for information about various cryptocurrencies in real-time.'
+							date={<FormattedMessage id='coindom_date' />}
+							description={<FormattedMessage id='coindom_desc' />}
 							techno1='React'
 							techno2='SCSS'
 							code='https://github.com/Zhilyasov/coindom-crypto'
@@ -52,9 +52,9 @@ const Projects = () => {
 
 						<ProBox
 							title='Gymate'
-							date='(January 2023)'
 							img={Gymate}
-							description='A gym website is a comprehensive resource for fitness information, class schedules, membership options, and tools to help users achieve their fitness goals.'
+							date={<FormattedMessage id='gymate_date' />}
+							description={<FormattedMessage id='gymate_desc' />}
 							techno1='React'
 							techno2='Tailwind CSS'
 							code='https://github.com/Zhilyasov/Gymate'
@@ -65,9 +65,9 @@ const Projects = () => {
 
 						<ProBox
 							title='Ecommerce'
-							date='(December 2022)'
 							img={Raouf}
-							description='With a focus on simplicity and clean design, this store prioritize user experience, making it easy for customers to find and purchase the products they need.'
+							date={<FormattedMessage id='ecommerce_date' />}
+							description={<FormattedMessage id='ecommerce_desc' />}
 							techno1='React'
 							techno2='Vanila CSS'
 							code='https://github.com/Zhilyasov/Minimalist-E-commerce'

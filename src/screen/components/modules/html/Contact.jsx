@@ -1,5 +1,6 @@
 import { IconBrandTelegram, IconMail, IconMapSearch } from '@tabler/icons-react'
 import '../../../styles/Contact.css'
+import { FormattedMessage } from 'react-intl'
 
 function Contact() {
 	return (
@@ -7,8 +8,12 @@ function Contact() {
 			<div className='container'>
 				<div className='contact__content'>
 					<div className='contact__title'>
-						<p>contact</p>
-						<h3>Don't be shy! Hit me up! 👇</h3>
+						<p>
+							<FormattedMessage id='contact_title' />
+						</p>
+						<h3>
+							<FormattedMessage id='contact_subtitle' />
+						</h3>
 					</div>
 					<div className='contact__icons'>
 						<div className='contact__icon-box'>
@@ -16,8 +21,12 @@ function Contact() {
 								<IconMapSearch width={30} height={30} />
 							</span>
 							<div className='contact__info'>
-								<h3>Location</h3>
-								<p>Russia, Moscow</p>
+								<h3>
+									<FormattedMessage id='location_title' />
+								</h3>
+								<p>
+									<FormattedMessage id='location_subtitle' />
+								</p>
 							</div>
 						</div>
 						<div className='contact__icon-box'>
@@ -25,8 +34,12 @@ function Contact() {
 								<IconMail width={30} height={30} />
 							</span>
 							<div className='contact__info'>
-								<h3>Mail</h3>
-								<a href='mailto:zhilyasovit@gmail.com'>zhilyasovit@gmail.com</a>
+								<h3>
+									<FormattedMessage id='mail_title' />
+								</h3>
+								<a href='mailto:zhilyasovit@gmail.com'>
+									<FormattedMessage id='mail_subtitle' />
+								</a>
 							</div>
 						</div>
 						<div className='contact__icon-box'>
@@ -34,13 +47,15 @@ function Contact() {
 								<IconBrandTelegram width={30} height={30} />
 							</span>
 							<div className='contact__info'>
-								<h3>Telegram</h3>
+								<h3>
+									<FormattedMessage id='telegram_title' />
+								</h3>
 								<a
 									href='https://t.me/Zhilyasov'
 									target='_blank'
 									rel='noreferrer'
 								>
-									@Zhilyasov
+									<FormattedMessage id='telegram_subtitle' />
 								</a>
 							</div>
 						</div>

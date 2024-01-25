@@ -49,6 +49,10 @@ export const messages = {
 		ecommerce_desc:
 			'With a focus on simplicity and clean design, this store prioritize user experience, making it easy for customers to find and purchase the products they need.',
 
+			// CreateX
+			createx_date: '(November 2022)',
+			createx_desc: 'A website selling a wide range of qualified online courses. The site is a demo, the information on it has been changed.',
+
 		// Contact
 		contact_title: "Don't be shy! Hit me up! 👇",
 		contact_subtitle: 'Contact',
@@ -114,6 +118,10 @@ export const messages = {
 		ecommerce_date: '(Декабрь 2022)',
 		ecommerce_desc:
 			'Делая акцент на простоте и чистом дизайне, этот магазин уделяет приоритетное внимание пользовательскому опыту, что позволяет покупателям легко находить и покупать нужные им продукты.',
+
+		// CreateX
+		createx_date: '(Ноябрь 2022)',
+		createx_desc: 'Сайт по продаже большого ассортимента квалифицированных онлайн - курсов. Сайт является демонстрационным, информация на нем изменена.',
 
 		// Contact
 		contact_title: 'Всегда на связи! 👇',

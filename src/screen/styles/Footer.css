@@ -1,43 +1,42 @@
 footer {
-  background-color: #2d2e32;
-  padding: 5rem 0;
-  width: 100%;
+	background-color: #2d2e32;
+	padding: 5rem 0;
+	width: 100%;
 }
 footer h3 {
-  font-size: 1.7rem;
-  color: white;
+	font-size: 1.7rem;
+	color: white;
 	font-weight: bold;
 }
 
 .footerc {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 @media (max-width: 550px) {
-  .footerc {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    text-align: center;
-  }
+	.footerc {
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 2rem;
+		text-align: center;
+	}
 }
 .footerc__socials {
-  display: flex;
-  gap: 2rem;
-  align-items: center;
-  justify-content: center;
-  margin-top: 1rem;
+	display: flex;
+	gap: 2rem;
+	align-items: center;
+	justify-content: center;
+	margin-top: 1rem;
 }
 .footerc__socials a {
-  font-size: 2.3rem;
-  color: white;
+	font-size: 2.3rem;
+	color: white;
 }
 .footerc__socials a:hover {
-  transform: scale(1.2);
-  transition: all 0.2s ease-in-out;
+	transform: scale(1.2);
+	transition: all 0.2s ease-in-out;
 }
-
 
 .switcher {
 	display: flex;
@@ -45,10 +44,12 @@ footer h3 {
 }
 
 .switcher select {
-  width: 85px;
-  height: 30px;
-	border: 2px solid #c1ceff96;
+	border: 2px solid #fff9;
 	border-radius: 5px;
+	height: 30px;
+	width: 85px;
+	background-color: #2d2e32;
+	color: #fff;
 }
 
 @media (max-width: 900px) {

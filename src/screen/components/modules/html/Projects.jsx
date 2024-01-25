@@ -1,15 +1,12 @@
+import { FormattedMessage } from 'react-intl'
 import '../../../styles/Projects.css'
 import ProBox from './ProBox'
-import { FormattedMessage } from 'react-intl'
 
-const CarRental =
-	'/CarRental.jpeg'
-const CoinDom =
-	'/coindom-crypto.jpeg'
-const Gymate =
-	'/gymate.jpeg'
-const Raouf =
-	'/e-commerce.jpeg'
+const CarRental = '/CarRental.jpeg'
+const CoinDom = '/coindom-crypto.jpeg'
+const Gymate = '/gymate.jpeg'
+const Raouf = '/e-commerce.jpeg'
+const CreateX = '/createx.jpeg'
 
 const Projects = () => {
 	return (
@@ -75,6 +72,19 @@ const Projects = () => {
 							scrollY='-71%'
 							icon='🛒'
 							cName='reversed-proj'
+						/>
+
+						<ProBox
+							title='CreateX'
+							img={CreateX}
+							date={<FormattedMessage id='createx_date' />}
+							description={<FormattedMessage id='createx_desc' />}
+							techno1='HTML'
+							techno2='Jquery'
+							code='https://github.com/Zhilyasov/First-Site-Lending'
+							demo='https://createx-self.vercel.app/'
+							scrollY='-71%'
+							icon='📚'
 						/>
 					</div>
 				</div>

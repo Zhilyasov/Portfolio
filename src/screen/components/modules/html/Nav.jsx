@@ -59,13 +59,13 @@ const Nav = ({ currentLocale, handleChange }) => {
 				</ul>
 				<div className='switcher'>
 					{/* Выпадающий список для выбора языка */}
-					<select onChange={handleChange} value={currentLocale}>
+					{/* <select onChange={handleChange} value={currentLocale}>
 						{languages.map(({ name, code }) => (
 							<option key={code} value={code}>
 								{name}
 							</option>
 						))}
-					</select>
+					</select> */}
 				</div>
 			</nav>
 

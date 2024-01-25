@@ -26,25 +26,10 @@ nav ul {
   list-style: none;
 }
 
-.switcher {
-	display: flex;
-	align-items: center;
-}
-
-.switcher select {
-  width: 85px;
-  height: 30px;
-	border: 2px solid #c1ceff96;
-	border-radius: 5px;
-}
-
 @media (max-width: 900px) {
   nav ul a {
     display: none;
   }
-	.switcher {
-		display: none;
-	}
 }
 
 nav ul a {
@@ -70,28 +55,12 @@ nav ul a:hover {
 	display: none;
 }
 
-.switcherM {
-	display: none;
-	margin-top: 100px;
-	flex-direction: column;
-}
-
-.switcherM select {
-  width: 85px;
-  height: 30px;
-	border: 2px solid #c1ceff96;
-	border-radius: 5px;
-}
-
 .mobile-menu:hover {
 	color: #147efb;
 	transition: all 0.3s;
 }
 @media (max-width: 900px) {
 	.mobile-menu {
-		display: flex;
-	}
-	.switcherM {
 		display: flex;
 	}
 }

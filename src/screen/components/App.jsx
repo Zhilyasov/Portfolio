@@ -44,7 +44,7 @@ function App() {
 				<About />
 				<Projects />
 				<Contact />
-				<Footer />
+				<Footer currentLocale={currentLocale} handleChange={handleChange} />
 			</div>
 		</IntlProvider>
 	)

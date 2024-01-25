@@ -78,38 +78,3 @@ body {
 ::-webkit-scrollbar-thumb:active {
   background-color: #8e8e8e
 }
-
-
-.switcher {
-	display: flex;
-	align-items: center;
-}
-
-.switcher select {
-  width: 85px;
-  height: 30px;
-	border: 2px solid #c1ceff96;
-	border-radius: 5px;
-}
-
-@media (max-width: 900px) {
-	.switcher {
-		display: none;
-	}
-  .switcherM {
-    display: flex;
-  }
-}
-
-.switcherM {
-	display: none;
-	margin-top: 100px;
-	flex-direction: column;
-}
-
-.switcherM select {
-  width: 85px;
-  height: 30px;
-	border: 2px solid #c1ceff96;
-	border-radius: 5px;
-}

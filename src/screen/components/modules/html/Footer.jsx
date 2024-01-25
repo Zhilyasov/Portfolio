@@ -1,7 +1,7 @@
 import { IconBrandGithub, IconBrandTelegram } from '@tabler/icons-react'
 import { FormattedMessage } from 'react-intl'
-import '../../../styles/Footer.css'
 import { LOCALES } from '../../../../i18n/locales'
+import '../../../styles/Footer.css'
 
 function Footer({ currentLocale, handleChange }) {
 	const languages = [
@@ -18,13 +18,15 @@ function Footer({ currentLocale, handleChange }) {
 						{new Date().getFullYear()}
 						<FormattedMessage id='footer2' />
 					</h3>
-					<select onChange={handleChange} value={currentLocale}>
-						{languages.map(({ name, code }) => (
-							<option key={code} value={code}>
-								{name}
-							</option>
-						))}
-					</select>
+					<div className='switcher'>
+						<select onChange={handleChange} value={currentLocale}>
+							{languages.map(({ name, code }) => (
+								<option key={code} value={code}>
+									{name}
+								</option>
+							))}
+						</select>
+					</div>
 					<div className='footerc__socials'>
 						<a
 							aria-label='telegram'

@@ -4,7 +4,7 @@ import ProBox from './ProBox'
 
 const CarRental = '/CarRental.jpeg'
 const CoinDom = '/coindom-crypto.jpeg'
-const Gymate = '/gymate.jpeg'
+// const Gymate = '/gymate.jpeg'
 const Raouf = '/e-commerce.jpeg'
 const CreateX = '/createx.jpeg'
 
@@ -27,8 +27,8 @@ const Projects = () => {
 							description={<FormattedMessage id='car_rental_desc' />}
 							techno1='React'
 							techno2='SCSS'
-							code='https://github.com/Zhilyasov/car-rental'
-							demo='https://car-rental-ten.vercel.app/'
+							code='https://github.com/Zhilyasov/car-rental-main'
+							demo='https://car-rental-blgrd.vercel.app/'
 							scrollY='-83%'
 							icon='🚗'
 						/>
@@ -40,14 +40,14 @@ const Projects = () => {
 							description={<FormattedMessage id='coindom_desc' />}
 							techno1='React'
 							techno2='SCSS'
-							code='https://github.com/Zhilyasov/coindom-crypto'
+							code='https://github.com/Zhilyasov/coindom-crypto-main'
 							demo='https://coindom-crypto-search.vercel.app/'
 							scrollY='-74%'
 							icon='🪙'
 							cName='reversed-proj'
 						/>
 
-						<ProBox
+						{/* <ProBox
 							title='Gymate'
 							img={Gymate}
 							date={<FormattedMessage id='gymate_date' />}
@@ -58,7 +58,7 @@ const Projects = () => {
 							demo='https://gymate-iota.vercel.app/'
 							scrollY='-89%'
 							icon='🏋️'
-						/>
+						/> */}
 
 						<ProBox
 							title='Ecommerce'
@@ -67,8 +67,8 @@ const Projects = () => {
 							description={<FormattedMessage id='ecommerce_desc' />}
 							techno1='React'
 							techno2='Vanila CSS'
-							code='https://github.com/Zhilyasov/Minimalist-E-commerce'
-							demo='https://minimalist-e-commerce.vercel.app/'
+							code='https://github.com/Zhilyasov/Minimalist-E-commerce-main'
+							demo='https://minimalist-e-commerce-nine.vercel.app/'
 							scrollY='-71%'
 							icon='🛒'
 							cName='reversed-proj'

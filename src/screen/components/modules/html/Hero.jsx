@@ -4,28 +4,20 @@ import { FormattedMessage } from 'react-intl'
 
 const skillsIcons = [
 	{
-		img: 'https://skillicons.dev/icons?i=html,css',
+		img: 'https://skillicons.dev/icons?i=js,react',
 		id: 1,
 	},
 	{
-		img: 'https://skillicons.dev/icons?i=js,ts',
+		img: 'https://skillicons.dev/icons?i=html,css',
 		id: 2,
 	},
 	{
-		img: 'https://skillicons.dev/icons?i=react,redux',
+		img: 'https://skillicons.dev/icons?i=tailwind,scss',
 		id: 3,
 	},
 	{
-		img: 'https://skillicons.dev/icons?i=tailwind,scss',
-		id: 4,
-	},
-	{
-		img: 'https://skillicons.dev/icons?i=nodejs,sqlite',
-		id: 5,
-	},
-	{
 		img: 'https://skillicons.dev/icons?i=vite,webpack',
-		id: 6,
+		id: 4,
 	},
 ]
 

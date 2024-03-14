@@ -71,7 +71,6 @@ const Projects = () => {
 							demo='https://minimalist-e-commerce-nine.vercel.app/'
 							scrollY='-71%'
 							icon='🛒'
-							cName='reversed-proj'
 						/>
 
 						<ProBox
@@ -85,6 +84,7 @@ const Projects = () => {
 							demo='https://createx-self.vercel.app/'
 							scrollY='-71%'
 							icon='📚'
+							cName='reversed-proj'
 						/>
 					</div>
 				</div>

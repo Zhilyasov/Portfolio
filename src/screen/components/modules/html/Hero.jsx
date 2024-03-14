@@ -77,12 +77,6 @@ const Hero = () => {
 								<li>
 									<img src={skillsIcons[3].img} alt='skill-icon' />
 								</li>
-								<li>
-									<img src={skillsIcons[4].img} alt='skill-icon' />
-								</li>
-								<li>
-									<img src={skillsIcons[5].img} alt='skill-icon' />
-								</li>
 							</ul>
 						</div>
 					</div>

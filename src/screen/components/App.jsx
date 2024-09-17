@@ -11,10 +11,12 @@ import Nav from './modules/html/Nav'
 import Projects from './modules/html/Projects'
 
 function App() {
+	const [switchLocale, setSwitchLocale] = useState('false')
 	const [currentLocale, setCurrentLocale] = useState(getInitialLocale())
 
 	const handleChange = ({ target: { value } }) => {
 		setCurrentLocale(value)
+		setSwitchLocale('true')
 		// сохраняем локацию в хранилище
 		localStorage.setItem('locale', value)
 	}
@@ -24,12 +26,12 @@ function App() {
 		const savedLocale = localStorage.getItem('locale')
 		let lang = LOCALES.ENGLISH
 		const def_lang = navigator.language || navigator.userLanguage
-		if (def_lang === 'ru') {
+		if (def_lang === 'ru-RU') {
 			lang = LOCALES.RUSSIAN
 		} else {
 			lang = LOCALES.ENGLISH
 		}
-		return savedLocale || lang
+		return switchLocale === 'true' ? savedLocale : lang
 	}
 
 	return (
